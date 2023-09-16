@@ -1,0 +1,12 @@
+/* UTILS (Допоміжні стилі) */
+@import "./utils/visually-hidden.css";
+@import "./utils/variables.css";
+
+/* BASE (Базові стилі) */
+@import "./base/common.css";
+@import "./base/container.css";
+@import "./base/section.css";
+
+/* LAYOUT (Стилі окремих секцій) */
+@import "./layout/header.css";
+@import "./layout/mobile-menu.css";
