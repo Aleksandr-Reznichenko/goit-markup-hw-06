@@ -9,4 +9,8 @@
 
 /* LAYOUT (Стилі окремих секцій) */
 @import "./layout/header.css";
+
+@import "./layout/hero.css";
+@import "./layout/features.css";
+
 @import "./layout/mobile-menu.css";
