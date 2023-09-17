@@ -10,6 +10,10 @@ body {
   font-family: var(--prymary-font);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
