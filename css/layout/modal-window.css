@@ -25,13 +25,25 @@
 }
 
 .modal {
+  overflow: scroll;
+
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 288px;
+  height: 95%;
+  max-height: 623px;
+  padding: 72px 16px 24px 16px;
+
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 288px;
   min-height: 623px;
-  padding: 72px 16px 24px 16px;
+  padding: 72px 16px 24px 16px; */
 
   background-color: var(--modal-bg-color);
   border-radius: 4px;
@@ -250,8 +262,10 @@
 
 @media screen and (min-width: 768px) {
   .modal {
-    width: 408px;
-    min-height: 584px;
+    width: 95%;
+    max-width: 408px;
+    height: 95%;
+    max-height: 584px;
     padding: 72px 24px 24px 24px;
   }
 }
