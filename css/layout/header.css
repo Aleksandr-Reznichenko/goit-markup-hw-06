@@ -4,13 +4,6 @@
    ============================== 
 */
 
-@media screen and (max-width: 767px) {
-  .nav-list,
-  .contact {
-    display: none;
-  }
-}
-
 .header {
   display: flex;
   height: 56px;
@@ -40,6 +33,13 @@
 
 .nav-logo-accent {
   color: var(--secondary-text-color);
+}
+
+/* Hidden */
+
+.nav-list,
+.contact {
+  display: none;
 }
 
 /* Burger menu button */

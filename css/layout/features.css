@@ -4,16 +4,16 @@
    ============================== 
 */
 
-@media screen and (max-width: 1157px) {
-  .features-box {
-    display: none;
-  }
-}
-
 .features-list {
   display: flex;
   flex-direction: column;
   gap: 72px;
+}
+
+/* Hidden */
+
+.features-box {
+  display: none;
 }
 
 .features-subtitle {
