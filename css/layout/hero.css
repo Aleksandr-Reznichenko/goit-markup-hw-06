@@ -23,19 +23,6 @@
   margin-right: auto;
 }
 
-/* bg-image 2x+ */
-/* @media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-device-pixel-ratio: 2) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../../images/mobile/bg-hero-mobile@2x.jpg");
-  }
-} */
-
 .hero-title {
   max-width: 169px;
   margin-left: auto;
@@ -84,7 +71,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../../images/tablet/bg-hero-tablet@2x.jpg");
+      url("../../images/mobile/bg-hero-mobile@2x.jpg");
   }
 }
 

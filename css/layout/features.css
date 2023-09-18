@@ -16,7 +16,7 @@
   gap: 72px;
 }
 
-.subtitle {
+.features-subtitle {
   margin-bottom: 8px;
 
   color: var(--secondary-text-color);
@@ -53,7 +53,7 @@
     width: calc((100% - 24px) / 2);
   }
 
-  .subtitle {
+  .features-subtitle {
     text-align: left;
   }
 }
@@ -86,7 +86,7 @@
     border: 1px solid var(--secondary-border-color);
   }
 
-  .subtitle {
+  .features-subtitle {
     color: var(--secondary-text-color);
     font-size: 20px;
     font-weight: 500;
