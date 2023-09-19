@@ -34,7 +34,7 @@
   height: 95%;
   max-height: 623px;
   padding: 72px 16px 24px 16px;
-  overflow: scroll;
+  overflow: auto;
 
   background-color: var(--modal-bg-color);
   border-radius: 4px;
@@ -256,17 +256,5 @@
     max-width: 408px;
     max-height: 584px;
     padding: 72px 24px 24px 24px;
-  }
-}
-
-/* 
-   ==============================
-   =========== DESKTOP ==========
-   ============================== 
-*/
-
-@media screen and (min-width: 1158px) {
-  .modal {
-    overflow: visible;
   }
 }
