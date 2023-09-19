@@ -11,7 +11,7 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../../images/mobile/bg-hero-mobile.jpg);
-  width: 320px;
+  max-width: 320px;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -91,7 +91,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/tablet/bg-hero-tablet.jpg);
-    width: 768px;
+    max-width: 768px;
   }
 
   .hero-title {
@@ -133,7 +133,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/desktop/bg-hero-desktop.jpg);
-    width: 100%;
+    max-width: 1440px;
   }
 
   .hero-title {
